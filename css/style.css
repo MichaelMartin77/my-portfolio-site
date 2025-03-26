@@ -46,6 +46,15 @@
   img {
     width: 100%;
   }
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  
   /* intro styles */
   #intro {
     padding: 1rem 1rem 2rem 1rem;
@@ -92,10 +101,10 @@
   /* contact section */
   
   #contact {
-    width: 400px;
-    text-align: center;
     margin: 0 auto;
-    padding: 3rem 0;
+    text-align: center;
+    padding: 4rem 0;
+    max-width: 400px;
   }
   
   #contact p:last-child {
